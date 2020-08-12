@@ -1,0 +1,151 @@
+.root{
+    
+    -fx-background-color: #fbfefb;
+    -fx-font-family:"Open Sans";
+}
+
+.button{
+    -fx-padding: 5 15 5 15;
+    -fx-background-color: #fbfefb;
+    -fx-font-size:18px;
+    -fx-text-fill: black;
+    -fx-font-weight:900;
+    -fx-font-family:"Open Sans";
+}
+.button:hover{
+    -fx-background-color: #eeeeee;
+}
+
+#themeBtn{
+    -fx-graphic: url('images/moon-dark.png');
+    -fx-padding: 15 15 15 15;
+}
+
+#addBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/add-user-dark.png');
+}
+#updateBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/edit-user-dark.png');
+}
+#deleteBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/delete-user-dark.png');
+}
+#searchBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/find-user-dark.png');
+}
+
+
+
+#addBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/add-book-dark.png');
+}
+#updateBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/edit-book-dark.png');
+}
+#deleteBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/remove-book-dark.png');
+}
+#searchBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/search-book-dark.png');
+}
+
+
+
+#settings{
+    -fx-graphic: url('images/gears-dark.png');
+    -fx-padding: 15 15 15 15;
+
+}
+
+#settingUserBtn{
+    -fx-graphic: url('images/admin-settings-dark.png');
+    -fx-font-size:19px;
+    -fx-font-weight:900;
+    -fx-border-width: 0 0 6 0;
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-color: aqua;
+}
+#settingbookBtn{
+    -fx-graphic: url('images/settings-book-dark.png');
+    -fx-font-size:19px;
+    -fx-font-weight: 700;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: aqua;
+    -fx-padding: 15 5 15 15 ;
+}
+#bookUserMng{
+    -fx-graphic: url('images/reading-dark.png'); 
+    -fx-font-size:19px;
+    -fx-font-weight:700;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: aqua;
+    -fx-padding: 15 5 15 15 ;
+
+}
+#settingUserBtn:hover,#settingbookBtn:hover,#bookUserMng:hover{
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: #ff1654;
+    -fx-background-color: #fbfefb;
+    -fx-effect: dropshadow(one-pass-box, #b1b3b2, 15, 0, -5, 5);
+}
+.headerBtn{
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: #ff1654;
+    -fx-text-fill: black;
+
+}
+
+.selected{
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-width: 0 0 6 0;
+    -fx-background-color: #fbfefb;
+    -fx-font-size: 20px;
+    -fx-border-color: #ff1654;
+    -fx-text-fill: black;
+    -fx-effect: dropshadow(one-pass-box, #b1b3b2, 15, 0, -5, 5);
+
+}
+
+/**/
+
+
+
+#body{
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color:white;
+    -fx-padding: 30 40 0 40;
+    -fx-text-fill: black;
+    -fx-font-family:"Open Sans";
+    -fx-effect: dropshadow(three-pass-box ,#696969,15,0,0,0);
+}
+
+#head{
+    -fx-font-size:26;
+    -fx-font-weight:800;
+    -fx-padding: 0 0 30 0;
+}
+.text-field{
+    -fx-font-size:15;
+    -fx-text-fill: black;
+    -fx-background-color: #fafcfb;
+    -fx-border-color: #eeeeee;
+}
+.text-area{
+    -fx-font-size:15;
+    -fx-control-inner-background: #fafcfb;
+    -fx-text-fill: black;
+}
+.label{
+    -fx-font-size:16;
+    -fx-font-weight:800;
+    -fx-text-fill: black;
+}

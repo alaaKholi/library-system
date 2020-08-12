@@ -1,0 +1,201 @@
+.root{
+    -fx-color1:aque;
+    -fx-background-color: #545954;
+    -fx-font-family:"Open Sans";
+}
+
+.button{
+    -fx-padding: 5 15 5 15;
+    -fx-background-color: #545954;
+    -fx-font-size:18px;
+    -fx-text-fill: white;
+    -fx-font-weight:900;
+    -fx-font-family:"Open Sans";
+}
+.button:hover{
+    -fx-background-color: #373d37;
+}
+
+#themeBtn{
+    -fx-graphic: url('images/sun-light.png');
+    -fx-padding: 15 15 15 15;
+}
+
+#addBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/add-user-light.png');
+}
+#updateBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/edit-user-light.png');
+}
+#deleteBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/delete-user-light.png');
+}
+#searchBorrower{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/find-user-light.png');
+}
+
+
+
+#addBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/add-book-light.png');
+}
+#updateBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/edit-book-light.png');
+}
+#deleteBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/remove-book-light.png');
+}
+#searchBook{
+    -fx-padding: 15 15 15 15 ;
+    -fx-graphic: url('images/search-book-light.png');
+}
+
+
+
+#settings{
+    -fx-graphic: url('images/gears-light.png');
+    -fx-padding: 15 15 15 15;
+
+}
+#settings:hover{
+    -fx-background-color:#545954;
+
+}
+#settingUserBtn{
+    -fx-graphic: url('images/admin-settings-light.png');
+    -fx-font-size:19px;
+    -fx-font-weight:900;
+    -fx-border-width: 0 0 6 0;
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-color: aqua;
+}
+#settingbookBtn{
+    -fx-graphic: url('images/settings-book-light.png');
+    -fx-font-size:19px;
+    -fx-font-weight: 700;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: aqua;
+    -fx-padding: 15 5 15 15 ;
+}
+#bookUserMng{
+    -fx-graphic: url('images/reading-light.png'); 
+    -fx-font-size:19px;
+    -fx-font-weight:700;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: aqua;
+    -fx-padding: 15 5 15 15 ;
+
+}
+#settingUserBtn:hover,#settingbookBtn:hover,#bookUserMng:hover{
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: #ff1654;
+    -fx-background-color: #4b524b;
+    -fx-effect: dropshadow(one-pass-box, black, 15, 0, -5, 5);
+}
+.headerBtn{
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-width: 0 0 6 0;
+    -fx-border-color: #ff1654;
+    -fx-text-fill: white;
+
+}
+.selected{
+    -fx-padding: 15 5 15 15 ;
+    -fx-border-width: 0 0 6 0;
+    -fx-background-color: #545954;
+    -fx-font-size: 20px;
+    -fx-border-color: #ff1654;
+    -fx-text-fill: white;
+    -fx-effect: dropshadow(one-pass-box, black, 15, 0, -5, 5);
+
+}
+
+
+
+#body{
+    -fx-border-width: 0 0 0 2;
+    -fx-border-color:white;
+    -fx-padding: 30 40 0 40;
+    -fx-text-fill: white;
+    -fx-font-family:"Open Sans";
+    -fx-effect: dropshadow(three-pass-box ,black,15,0.3,1,1);
+}
+
+#head{
+    -fx-font-size:26;
+    -fx-font-weight:800;
+    -fx-padding: 0 0 30 0;
+}
+.text-field{
+    -fx-font-size:15;
+    -fx-text-fill: white;
+    -fx-background-color: #6c706c;
+    -fx-border-color: #545954;
+}
+.text-area{
+    -fx-font-size:15;
+    -fx-control-inner-background: #6c706c;
+    -fx-text-fill: white;
+}
+.label{
+    -fx-font-size:16;
+    -fx-font-weight:800;
+    -fx-text-fill: white;
+}
+/*#bookLV{
+    -fx-effect: dropshadow(three-pass-box ,#161716,15,0.3,1,1);
+}*/
+
+.table-view{
+   -fx-background-color: transparent;
+}
+
+.table-view:focused{
+    -fx-background-color: transparent;
+}
+
+/* Spaltenköpfe
+    Struktur column-header-background -> column-header */
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    
+}
+
+.table-view .table-cell{
+    -fx-text-fill: white;
+}
+
+.table-row-cell{
+    -fx-background-color: -fx-table-cell-border-color, #616161;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */
+}
+
+.table-row-cell:odd{
+    -fx-background-color: -fx-table-cell-border-color, #424242;
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-padding: 0.0em; /* 0 */  
+}
+
+.table-row-cell:selected {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}

@@ -1,0 +1,99 @@
+The Borrower 3 borrow A Book ID 10 from 2020-11-20 To 2020-11-30
+---------------------
+The Borrower 3 borrow A Book ID 13 from 2020-02-05 To 2020-06-05
+-----------------
+Delete Book : Book{id=90, name=s, description=s}
+---------------------
+Updating Book From Book{id=13, name=gfgdhdg, description=s} To Book{id=13, name=ahmed, description=s}
+---------------------
+Adding BookBook{id=20, name=Data Structure, description=ssss}
+---------------------
+Updating Borrower From Borrowers{id=3, firstName=tttttttttttt, lastName=dfdfdfdf, mobile=2, email=a, address=aaaa, gender=a} To Borrowers{id=3, firstName=dfdfdfdf, lastName=ddsds, mobile=2, email=a, address=aaaa, gender=a}
+---------------------
+Adding BorrowerBorrowers{id=6, firstName=s, lastName=s, mobile=33, email=s, address=s, gender=f}
+---------------------
+Delete Borrower : Borrowers{id=99, firstName=aa, lastName=aa, mobile=88, email=aa, address=ss, gender=f}
+---------------------
+Delete Borrower : Borrowers{id=55, firstName=ss, lastName=addddd, mobile=2, email=a, address=a, gender=a}
+---------------------
+Search Operation {s}: Match result with Book [ Book{id=19, name=ss, description=sss} ]
+Search Operation {s}: Match result with Book [ Book{id=20, name=Data Structure, description=ssss} ]
+Search Operation {s}: Match result with Book [ Book{id=10, name=s, description=s} ]
+Search Operation {s}: Match result with Book [ Book{id=11, name=s, description=ssds} ]
+Search Operation {s}: Match result with Book [ Book{id=13, name=ahmed, description=s} ]
+Search Operation {s}: Match result with Book [ Book{id=15, name=s, description=s} ]
+Adding BorrowerBorrowers{id=35, firstName=ahmed, lastName=khaled, mobile=598888888, email=ahmed@gmail.com, address=gaza, gender=m}
+---------------------
+Adding BorrowerBorrowers{id=30, firstName=ali, lastName=omar, mobile=598659888, email=ali-omar@gmail.com, address=gaza, gender=m}
+---------------------
+Updating Borrower From Borrowers{id=19, firstName=omar, lastName=ahmed, mobile=596666666, email=omar@gmail.com, address=gaza, gender=m} To Borrowers{id=19, firstName=omar, lastName=omar, mobile=596666666, email=omar@gmail.com, address=rafah, gender=m}
+---------------------
+Search Operation {15}: Match result with Borrower [ Borrowers{id=15, firstName=ali, lastName=khaled, mobile=596666666, email=ali@gmail.com, address=gaza, gender=m} ]
+Search Operation {16}: Match result with Borrower [ Borrowers{id=16, firstName=ali, lastName=yousef, mobile=599999999, email=ali-yousef@gmail.com, address=gaza, gender=m} ]
+Delete Borrower : Borrowers{id=19, firstName=omar, lastName=omar, mobile=596666666, email=omar@gmail.com, address=rafah, gender=m}
+---------------------
+Adding BookBook{id=50, name=Math, description=calculas }
+---------------------
+Updating Book From Book{id=10, name=Programming I, description=Basic concepts with Java} To Book{id=10, name=Programming java, description=Basic concepts with Java}
+---------------------
+Search Operation {10}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {Programming java}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {Web}: Match result with Book [ Book{id=40, name=Web Programming II, description=back end with PHP} ]
+Search Operation {Web}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Search Operation {0}: Match result with Book [ Book{id=50, name=Math, description=calculas } ]
+Search Operation {0}: Match result with Book [ Book{id=20, name=Data Structure, description=with Java} ]
+Search Operation {0}: Match result with Book [ Book{id=40, name=Web Programming II, description=back end with PHP} ]
+Search Operation {0}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {0}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Adding BorrowerBorrowers{id=55, firstName=df, lastName=fs, mobile=56, email=fs, address=d, gender=d}
+---------------------
+Adding BorrowerBorrowers{id=20, firstName=ali, lastName=omer, mobile=598659888, email=ali-omar@gmail.com, address=gaza, gender=m}
+---------------------
+Updating Borrower From Borrowers{id=20, firstName=ali, lastName=omer, mobile=598659888, email=ali-omar@gmail.com, address=gaza, gender=m} To Borrowers{id=20, firstName=ali, lastName=omar, mobile=598659888, email=ali-omar@gmail.com, address=rafah, gender=m}
+---------------------
+Search Operation {20}: Match result with Borrower [ Borrowers{id=20, firstName=ali, lastName=omar, mobile=598659888, email=ali-omar@gmail.com, address=rafah, gender=m} ]
+Search Operation {16}: Match result with Borrower [ Borrowers{id=16, firstName=ali, lastName=yousef, mobile=599999999, email=ali-yousef@gmail.com, address=gaza, gender=m} ]
+Delete Borrower : Borrowers{id=20, firstName=ali, lastName=omar, mobile=598659888, email=ali-omar@gmail.com, address=rafah, gender=m}
+---------------------
+Adding BookBook{id=60, name=JavaFX, description=Programming with GUI}
+---------------------
+Updating Book From Book{id=50, name=Math, description=calculas } To Book{id=50, name=Math II, description=calculas }
+---------------------
+Search Operation {Programming}: Match result with Book [ Book{id=40, name=Web Programming II, description=back end with PHP} ]
+Search Operation {Programming}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {Programming}: Match result with Book [ Book{id=60, name=JavaFX, description=Programming with GUI} ]
+Search Operation {Programming}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Search Operation {10}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {Web}: Match result with Book [ Book{id=40, name=Web Programming II, description=back end with PHP} ]
+Search Operation {Web}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Delete Book : Book{id=50, name=Math II, description=calculas }
+---------------------
+The Borrower 16 borrow A Book ID 30 from 2020-03-10 To 2020-04-06
+-----------------
+The  Book ID 30 is Returned and Now available to borrow agaiin
+------------------
+Delete Book : Book{id=60, name=JavaFX, description=Programming with GUI}
+---------------------
+Adding BorrowerBorrowers{id=30, firstName=ali, lastName=omer, mobile=598888888, email=ali-omar@gmail.com, address=gaza, gender=m}
+---------------------
+Updating Borrower From Borrowers{id=30, firstName=ali, lastName=omer, mobile=598888888, email=ali-omar@gmail.com, address=gaza, gender=m} To Borrowers{id=30, firstName=ali, lastName=omar, mobile=598888887, email=ali-omar@gmail.com, address=gaza, gender=m}
+---------------------
+Search Operation {15}: Match result with Borrower [ Borrowers{id=15, firstName=ali, lastName=khaled, mobile=596666666, email=ali@gmail.com, address=gaza, gender=m} ]
+Search Operation {16}: Match result with Borrower [ Borrowers{id=16, firstName=ali, lastName=yousef, mobile=599999999, email=ali-yousef@gmail.com, address=gaza, gender=m} ]
+Delete Borrower : Borrowers{id=16, firstName=ali, lastName=yousef, mobile=599999999, email=ali-yousef@gmail.com, address=gaza, gender=m}
+---------------------
+Adding BookBook{id=50, name=JavaFX, description=Programming with GUI}
+---------------------
+Updating Book From Book{id=50, name=JavaFX, description=Programming with GUI} To Book{id=50, name=JavaFX, description=Programming with GUI , interesting}
+---------------------
+Delete Book : Book{id=40, name=Web Programming II, description=back end with PHP}
+---------------------
+Search Operation {Programming}: Match result with Book [ Book{id=50, name=JavaFX, description=Programming with GUI , interesting} ]
+Search Operation {Programming}: Match result with Book [ Book{id=10, name=Programming java, description=Basic concepts with Java} ]
+Search Operation {Programming}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Search Operation {30}: Match result with Book [ Book{id=30, name=Web Programming I, description=front end with HTML , CSS , JS} ]
+Search Operation {Data}: Match result with Book [ Book{id=20, name=Data Structure, description=with Java} ]
+The Borrower 30 borrow A Book ID 20 from 2020-04-13 To 2020-04-20
+-----------------
+The  Book ID 10 is Returned and Now available to borrow agaiin
+------------------
